@@ -1,0 +1,514 @@
+\documentclass[11pt]{article}
+\usepackage{amsfonts, amssymb, amsmath}
+\parindent 0px
+
+\begin{document}
+Curativo, Ernest Joseph S. \\[5pt]
+Problem 1 \\[5pt]
+
+1. Let $\textbf{u} = (1,-2,4)$ and $\textbf{v}=(3,5,1)$ and $\textbf{w}=(2,1,-3)$ find: \\[5pt]
+
+a. $\textbf{3u} - \textbf{2v}$ \\[5pt]
+
+$
+$\textbf{3u} - \textbf{2v}$
+= 3(1,-2,4) - 2(3,5,1)
+= (3,-6,12) + (-6,-10,-2)
+= (-3,-16,10)
+$ \\[5pt]
+
+b. $\textbf{5u} + \textbf{3v} - \textbf{4w}$ \\[5pt]
+
+$
+$\textbf{5u} + \textbf{3v} - \textbf{4w}$
+= 5(1,-2,4) + 3(3,5,1) - 4(2,1,-3)
+= (5,-10,20) + (9,15,3) + (-8,-4,12)
+= (6,1,35)
+$ \\[5pt]
+
+c. $\textbf{u}\cdot\textbf{v}, \textbf{v}\cdot\textbf{w}, \textbf{u}\cdot\textbf{w}$ \\ [5pt]
+
+$
+\textbf{u}\cdot\textbf{v} =
+1(3)-2(5)+4(1) = -3\\
+\textbf{v}\cdot\textbf{w} = 3(2)+5(1)+1(-3) = 8\\
+\textbf{u}\cdot\textbf{w} = 1(2)-2(1)+4(-3) = -12
+$ \\[5pt]
+
+d. $||\textbf{u}||,||\textbf{v}||,||\textbf{w}||$ \\[5pt]
+
+$
+||\textbf{u}|| =
+\sqrt{(1)^2+(-2)^2+(4)^2} = \sqrt{21} \\
+||\textbf{v}|| = 
+\sqrt{(3)^2+(5)^2+(1)^2}= \sqrt{35} \\
+||\textbf{w}|| = 
+\sqrt{(2)^2+(1)^2+(-3)^2} = \sqrt{14}
+$ \\[5pt]
+
+e. If $\mathbf{\theta}$ is the angle between $\mathbf{u}$ and $\mathbf{v}$, find $\mathbf{\cos \theta}$. \\[5pt]
+
+$
+\mathbf{\cos \theta}
+= \frac{1(3)-2(5)+4(1)}{\sqrt{(1)^2+(-2)^2+(4)^2}\sqrt{(3)^2+(5)^2+(1)^2}}
+= \frac{-3}{\sqrt{21} \sqrt{35}}
+$ \\[5pt]
+
+f. If $\mathbf{\alpha}$ is the angle between $\mathbf{v}$ and $\mathbf{w}$, find $\mathbf{\cos \alpha}$. \\[5pt]
+
+$
+\mathbf{\cos \alpha}
+= \frac{3(2)+5(1)+1(-3)}{\sqrt{(3)^2+(5)^2+(1)^2}\sqrt{(2)^2+(1)^2+(-3)^2}}
+= \frac{8}{\sqrt{35} \sqrt{14}}
+$ \\[5pt]
+
+g. If $\mathbf{\beta}$ is the angle between $\mathbf{u}$ and $\mathbf{w}$, find $\mathbf{\cos \beta}$. \\[5pt]
+
+$
+\mathbf{\cos \beta}
+= \frac{1(2)-2(1)+4(-3)}{\sqrt{(1)^2+(-2)^2+(4)^2}\sqrt{(2)^2+(1)^2+(-3)^2}}
+= \frac{-12}{\sqrt{21} \sqrt{14}}
+$ \\[5pt]
+
+h. Find $\mathbf{d(u,v)}$. \\[5pt]
+
+$
+\mathbf{d(u,v)}
+= \sqrt{(1-3)^2 + (-2-5)^2 + (4-1)^2}
+= \sqrt{4 + 49 + 9}
+= \sqrt{62}
+$ \\[5pt]
+
+i. Find $\mathbf{d(w,v)}$. \\[5pt]
+
+$
+\mathbf{d(w,v)}
+= \sqrt{(2-3)^2 + (1-5)^2 + (-3-1)^2}
+= \sqrt{1 + 16 + 16}
+= \sqrt{33}
+$ \\[5pt]
+
+j. Find $\mathbf{d(u,w)}$. \\[5pt]
+
+$
+\mathbf{d(u,w)}
+= \sqrt{(1-2)^2 + (-2-1)^2 + (4-(-3))^2}
+= \sqrt{1 + 9 + 49}
+= \sqrt{59}
+$ \\[5pt]
+
+k. Find $\mathbf{proj(u,v)}$. \\[5pt]
+
+$
+\mathbf{proj(u,v)}
+= \frac{1(3)-2(5)+4(1)}{\left(\sqrt{(3)^2+(5)^2+(1)^2}\right)^2}(3,5,1)
+= \frac{-3}{35}(3,5,1)
+= (\frac{-9}{35},\frac{-15}{35},\frac{-3}{35})
+$ \\[5pt]
+
+l. Find $\mathbf{proj(w,v)}$. \\[5pt]
+
+$
+\mathbf{proj(w,v)}
+= \frac{2(3)+1(5)-3(1)}{\left(\sqrt{(3)^2+(5)^2+(1)^2}\right)^2}(3,5,1)
+= \frac{8}{35}(3,5,1)
+= (\frac{24}{35},\frac{40}{35},\frac{8}{35})
+= (\frac{24}{35},\frac{8}{7},\frac{8}{35})
+$ \\[5pt]
+
+m. Find $\mathbf{proj(u,w)}$. \\[5pt]
+
+$
+\mathbf{proj(u,w)}
+= \frac{1(2)-2(1)+4(-3)}{\left(\sqrt{(2)^2+(1)^2+(-3)^2}\right)^2}(2,1,-3)
+= \frac{-12}{14}(2,1,-3)
+= \frac{-6}{7}(2,1,-3)
+= (\frac{-12}{7},\frac{-6}{7},\frac{18}{7})
+$ \\[5pt]
+
+Problem 2 \\[5pt]
+
+1. Let 
+$\textbf{u} =
+\begin{bmatrix}
+ 1 \\ 3 \\ -4
+\end{bmatrix},
+\textbf{v}=
+\begin{bmatrix}
+ 2 \\ 1 \\ 5
+\end{bmatrix},
+\textbf{w}=
+\begin{bmatrix}
+3 \\ -2 \\ 6
+\end{bmatrix}$ \\[5pt]
+
+a. $\textbf{3u} - \textbf{2v}$ \\[5pt]
+
+$
+= 3
+\begin{bmatrix}
+1 \\ 3 \\ -4
+\end{bmatrix} 
+- 2
+\begin{bmatrix}
+2 \\ 1 \\ 5
+\end{bmatrix}
+=
+\begin{bmatrix}
+3 \\ 9 \\ -12
+\end{bmatrix} 
++
+\begin{bmatrix}
+-4 \\ -2 \\ -10
+\end{bmatrix}
+=
+\begin{bmatrix}
+-1 \\ 7 \\ -22
+\end{bmatrix} 
+$ \\[5pt]
+
+b. $\textbf{5u} + \textbf{3v} - \textbf{4w}$ \\[5pt]
+
+$
+= 5
+\begin{bmatrix}
+1 \\ 3 \\ -4
+\end{bmatrix} 
++ 3
+\begin{bmatrix}
+2 \\ 1 \\ 5
+\end{bmatrix}
+- 4
+\begin{bmatrix}
+3 \\ -2 \\ 6
+\end{bmatrix}
+=
+\begin{bmatrix}
+5 \\ 15 \\ -20
+\end{bmatrix} 
++
+\begin{bmatrix}
+6 \\ 3 \\ 15
+\end{bmatrix}
++
+\begin{bmatrix}
+-12 \\ 8 \\ -24
+\end{bmatrix}
+=
+\begin{bmatrix}
+-1 \\ 26 \\ -29
+\end{bmatrix} 
+$ \\[5pt]
+
+c. $\textbf{u}\cdot\textbf{v}, \textbf{v}\cdot\textbf{w}, \textbf{u}\cdot\textbf{w}$ \\ [5pt]
+
+$
+\textbf{u}\cdot\textbf{v} =
+1(2)+3(1)-4(5) = -15\\
+\textbf{v}\cdot\textbf{w} = 2(3)+1(-2)+5(6) = 34\\
+\textbf{u}\cdot\textbf{w} = 1(3)+3(-2)-4(6) = -27
+$ \\[5pt]
+
+d. $||\textbf{u}||,||\textbf{v}||,||\textbf{w}||$ \\[5pt]
+
+$
+||\textbf{u}|| =
+\sqrt{(1)^2+(3)^2+(4)^2} = \sqrt{26} \\
+||\textbf{v}|| = 
+\sqrt{(2)^2+(1)^2+(5)^2}= \sqrt{30} \\
+||\textbf{w}|| = 
+\sqrt{(3)^2+(-2)^2+(6)^2} = \sqrt{49} = 7
+$ \\[5pt]
+
+e. If $\mathbf{\theta}$ is the angle between $\mathbf{u}$ and $\mathbf{v}$, find $\mathbf{\cos \theta}$. \\[5pt]
+
+$
+\mathbf{\cos \theta}
+= \frac{1(2)+3(1)-4(5)}{\sqrt{(1)^2+(3)^2+(4)^2}\sqrt{(2)^2+(1)^2+(5)^2}}
+= \frac{-15}{\sqrt{26} \sqrt{30}}
+$ \\[5pt]
+
+f. If $\mathbf{\alpha}$ is the angle between $\mathbf{v}$ and $\mathbf{w}$, find $\mathbf{\cos \alpha}$. \\[5pt]
+
+$
+\mathbf{\cos \alpha}
+= \frac{2(3)+1(-2)+5(6)}{\sqrt{(2)^2+(1)^2+(5)^2}\sqrt{(3)^2+(-2)^2+(6)^2}}
+= \frac{34}{\sqrt{30}(7)}
+$ \\[5pt]
+
+g. If $\mathbf{\beta}$ is the angle between $\mathbf{u}$ and $\mathbf{w}$, find $\mathbf{\cos \beta}$. \\[5pt]
+
+$
+\mathbf{\cos \beta}
+= \frac{1(3)+3(-2)-4(6)}{\sqrt{(1)^2+(3)^2+(4)^2}\sqrt{(3)^2+(-2)^2+(6)^2}}
+= \frac{-27}{\sqrt{26}(7)}
+$ \\[5pt]
+
+h. Find $\mathbf{d(u,v)}$. \\[5pt]
+
+$
+\mathbf{d(u,v)}
+= \sqrt{(1-2)^2 + (3-1)^2 + (-4-5)^2}
+= \sqrt{1 + 4 + 81}
+= \sqrt{86}
+$ \\[5pt]
+
+i. Find $\mathbf{d(w,v)}$. \\[5pt]
+
+$
+\mathbf{d(w,v)}
+= \sqrt{(3-2)^2 + (-2-1)^2 + (6-5)^2}
+= \sqrt{1 + 9 + 1}
+= \sqrt{11}
+$ \\[5pt]
+
+j. Find $\mathbf{d(u,w)}$. \\[5pt]
+
+$
+\mathbf{d(u,w)}
+= \sqrt{(1-3)^2 + (3-(-2))^2 + (-4-6)^2}
+= \sqrt{4 + 25 + 100}
+= \sqrt{129}
+$ \\[5pt]
+
+k. Find $\mathbf{proj(u,v)}$. \\[5pt]
+
+$
+\mathbf{proj(u,v)}
+= \frac{1(2)+3(1)-4(5)}{\left(\sqrt{(2)^2+(1)^2+(5)^2}\right)^2}(2,1,5)
+= \frac{-15}{30}(2,1,5)
+= \frac{-1}{2}(2,1,5)
+= (-1,\frac{-1}{2},\frac{-5}{2})
+$ \\[5pt]
+
+l. Find $\mathbf{proj(w,v)}$. \\[5pt]
+
+$
+\mathbf{proj(w,v)}
+= \frac{3(2)-2(1)+6(5)}{\left(\sqrt{(2)^2+(1)^2+(5)^2}\right)^2}(2,1,5)
+= \frac{34}{30}(2,1,5)
+= \frac{17}{15}(2,1,5)
+= (\frac{34}{15},\frac{17}{15},\frac{85}{15})
+$ \\[5pt]
+
+m. Find $\mathbf{proj(u,w)}$. \\[5pt]
+
+$
+\mathbf{proj(u,w)}
+= \frac{1(3)+3(-2)-4(6)}{\left(\sqrt{(3)^2+(-2)^2+(6)^2}\right)^2}(3,-2,6)
+= \frac{-27}{49}(3,-2,6)
+= (\frac{-81}{49},\frac{54}{49},\frac{-162}{49})
+$ \\[5pt]
+
+Problem 3 - Let $\mathbf{u} =(2,-5,4,6,-3),\mathbf{v}=(5,-2,1,-7,-4),$ and $\mathbf{w}=(2,1,-3)$ \\[5pt]
+
+a. $\textbf{4u} - \textbf{3v}$ \\[5pt]
+
+$
+$\textbf{4u} - \textbf{3v}$
+= 4(2,-5,4,6,-3) - 3(5,-2,1,-7,-4)
+= (8,-20,16,24,-12) + (-15,6,-3,21,12)
+= (-7,-14,13,45,0)
+$ \\[5pt]
+
+b. $\textbf{5u} + \textbf{2v} - \textbf{2w}$ \\[5pt]
+
+$
+$\textbf{5u} + \textbf{2v} - \textbf{2w}$
+= 5(2,-5,4,6,-3) + 2(5,-2,1,-7,-4) - 2(2,1,-3,0,0)
+= (10,-25,20,30,-15) + (10,-4,2,-14,-8) + (-4,-2,6,0,0)
+= (16,-31,28,16,-23)
+$ \\[5pt]
+
+c. $\textbf{u}\cdot\textbf{v}, \textbf{v}\cdot\textbf{w}, \textbf{u}\cdot\textbf{w}$ \\ [5pt]
+
+$
+\textbf{u}\cdot\textbf{v} =
+2(5)-5(-2)+4(1)+6(-7)-3(-4) = -6\\
+\textbf{v}\cdot\textbf{w} = 5(2)-2(1)+1(-3)-7(0)-4(0) = 5\\
+\textbf{u}\cdot\textbf{w} = 2(2)-5(1)+4(-3)+6(0)-3(0) = -13
+$ \\[5pt]
+
+d. $||\textbf{u}||,||\textbf{v}||,||\textbf{w}||$ \\[5pt]
+
+$
+||\textbf{u}|| =
+\sqrt{(2)^2+(-5)^2+(4)^2+(6)^2+(-3)^2} = \sqrt{90} = 3\sqrt{10} \\
+||\textbf{v}|| = 
+\sqrt{(5)^2+(-2)^2+(1)^2+(-7)^2+(-4)^2}= \sqrt{95} \\
+||\textbf{w}|| = 
+\sqrt{(2)^2+(1)^2+(-3)^2+(0)^2+(0)^2} = \sqrt{14}
+$ \\[5pt]
+
+e. If $\mathbf{\theta}$ is the angle between $\mathbf{u}$ and $\mathbf{v}$, find $\mathbf{\cos \theta}$. \\[5pt]
+
+$
+\mathbf{\cos \theta}
+= \frac{2(5)-5(-2)+4(1)+6(-7)-3(-4)}{\sqrt{(2)^2+(-5)^2+(4)^2+(6)^2+(-3)^2}\sqrt{(5)^2+(-2)^2+(1)^2+(-7)^2+(-4)^2}}
+= \frac{-6}{3\sqrt{10} \sqrt{95}}
+= \frac{-6}{3\sqrt{950}}
+= \frac{-6}{(3) (5\sqrt{38})}
+= \frac{-2}{5\sqrt{38}}
+$ \\[5pt]
+
+f. If $\mathbf{\alpha}$ is the angle between $\mathbf{v}$ and $\mathbf{w}$, find $\mathbf{\cos \alpha}$. \\[5pt]
+
+$
+\mathbf{\cos \alpha}
+= \frac{5(2)-2(1)+1(-3)-7(0)-4(0)}{\sqrt{(5)^2+(-2)^2+(1)^2+(-7)^2+(-4)^2}\sqrt{(2)^2+(1)^2+(-3)^2+(0)^2+(0)^2}}
+= \frac{5}{\sqrt{95} \sqrt{14}}
+=
+$ \\[5pt]
+
+g. If $\mathbf{\beta}$ is the angle between $\mathbf{u}$ and $\mathbf{w}$, find $\mathbf{\cos \beta}$. \\[5pt]
+
+$
+\mathbf{\cos \beta}
+= \frac{2(2)-5(1)+4(-3)+6(0)-3(0)}{\sqrt{(2)^2+(-5)^2+(4)^2+(6)^2+(-3)^2}\sqrt{(2)^2+(1)^2+(-3)^2+(0)^2+(0)^2}}
+= \frac{-13}{3\sqrt{10} \sqrt{14}}
+= \frac{-13}{3\sqrt{140}}
+= \frac{-13}{(3)(2)\sqrt{35}}
+= \frac{-13}{6\sqrt{35}}
+$ \\[5pt]
+
+h. Find $\mathbf{d(u,v)}$. \\[5pt]
+
+$
+\mathbf{d(u,v)}
+= \sqrt{(2-5)^2 + (-5-(-2))^2 + (4-1)^2 + (6-(-7))^2 + (-3-(-4))^2}
+= \sqrt{9 + 9 + 9 + 169 + 1}
+= \sqrt{197}
+$ \\[5pt]
+
+i. Find $\mathbf{d(w,v)}$. \\[5pt]
+
+$
+\mathbf{d(w,v)}
+= \sqrt{(5-2)^2 + (-2-1)^2 + (1-(-3))^2 + (-7-0)^2 + (-4-0)^2}
+= \sqrt{9 + 9 + 16 + 49 + 16}
+= \sqrt{99}
+= 3\sqrt{11}
+$ \\[5pt]
+
+j. Find $\mathbf{d(u,w)}$. \\[5pt]
+
+$
+\mathbf{d(u,w)}
+= \sqrt{(2-2)^2 + (-5-1)^2 + (4-(-3))^2 + (6-0)^2 + (-3-0)^2}
+= \sqrt{0 + 36 + 49 + 36 + 9}
+= \sqrt{130}
+$ \\[5pt]
+
+k. Find $\mathbf{proj(u,v)}$. \\[5pt]
+
+$
+\mathbf{proj(u,v)}
+= \frac{2(5)-5(-2)+4(1)+6(-7)-3(-4)}{\left(\sqrt{(5)^2+(-2)^2+(1)^2+(-7)^2+(-4)^2}\right)^2}(5,-2,1,-7,-4)
+= \frac{-6}{95}(5,-2,1,-7,-4)
+= (\frac{-30}{95},\frac{12}{95},\frac{-6}{95},\frac{42}{95},\frac{24}{95})
+$ \\[5pt]
+
+l. Find $\mathbf{proj(w,v)}$. \\[5pt]
+
+$
+\mathbf{proj(w,v)}
+= \frac{5(2)-2(1)+1(-3)-7(0)-4(0)}{\left(\sqrt{(5)^2+(-2)^2+(1)^2+(-7)^2+(-4)^2}\right)^2}(5,-2,1,-7,-4)
+= \frac{5}{95}(5,-2,1,-7,-4)
+= \frac{1}{19}(5,-2,1,-7,-4)
+= (\frac{5}{19},\frac{-2}{19},\frac{1}{19},\frac{-7}{19},\frac{-4}{19})
+$ \\[5pt]
+
+m. Find $\mathbf{proj(u,w)}$. \\[5pt]
+
+$
+\mathbf{proj(u,w)}
+= \frac{2(2)-5(1)+4(-3)+6(0)-3(0)}{\left(\sqrt{(2)^2+(1)^2+(-3)^2+(0)^2+(0)^2}\right)^2}(2,1,-3,0,0)
+= \frac{-13}{14}(2,1,-3,0,0)
+= (\frac{-26}{14},\frac{-13}{14},\frac{39}{14},0,0)
+$ \\[5pt]
+
+Problem 4 - Normalize each vector: \\[5pt]
+
+a. $\mathbf{u}=(5,-7)$ \\[5pt]
+
+$
+||\textbf{u}|| =
+\sqrt{(5)^2+(-7)^2} = \sqrt{74} \\
+\textbf{u'} = \left(\frac{5}{\sqrt{74}},\frac{-7}{\sqrt{74}}\right)
+$ \\[5pt]
+
+
+b. $\mathbf{v}=(1,2,-2,4)$ \\[5pt]
+
+$
+||\textbf{v}|| =
+\sqrt{(1)^2+(2)^2+(-2)^2+(4)^2} = \sqrt{25} = 5 \\
+\textbf{v'} = \left(\frac{1}{5},\frac{2}{5},\frac{-2}{5},\frac{4}{5}\right)
+$ \\[5pt]
+
+c. $\mathbf{w}=(\frac{1}{2},\frac{-1}{3},\frac{3}{4})$ \\[5pt]
+
+$
+||\textbf{w}|| =
+\sqrt{(\frac{1}{2})^2+(\frac{-1}{3})^2+(\frac{3}{4})^2} = \sqrt{(\frac{1}{4})+(\frac{1}{9})+(\frac{9}{16})} = \sqrt{(\frac{13}{36})+(\frac{9}{16})} = \sqrt{\frac{133}{144}} \\
+\textbf{w'} = \left(\frac{\frac{1}{2}}{\sqrt{\frac{133}{144}}},
+\frac{\frac{-1}{3}}{\sqrt{\frac{133}{144}}},
+\frac{\frac{3}{4}}{\sqrt{\frac{133}{144}}}\right) \\
+\textbf{w'} = \left(\frac{1}{2\sqrt{\frac{133}{144}}},\frac{-1}{3\sqrt{\frac{133}{144}}},\frac{3}{4\sqrt{\frac{133}{144}}}\right)
+$ \\[5pt]
+
+Problem 5 \\[5pt]
+
+Let $\textbf{u} = (1,2,-2)$, $\textbf{v}=(3,-12,4)$ and a scalar $\textbf{k}=-3$. \\
+Find : $||\textbf{u}||, ||\textbf{v}||, ||\textbf{u+v}||, ||\textbf{ku}||$ \\[5pt]
+
+$
+||\textbf{u}|| =
+\sqrt{(1)^2+(2)^2+(-2)^2} = \sqrt{9} = 3 \\
+||\textbf{v}|| =
+\sqrt{(3)^2+(-12)^2+(4)^2} = \sqrt{169} = 13 \\
+||\textbf{u+v}|| =
+\sqrt{(1+3)^2+(2+(-12))^2+(-2+4)^2} = \sqrt{120} \\
+||\textbf{ku}|| =
+\sqrt{(-3(1))^2+(-3(2))^2+(-3(-2))^2} = \sqrt{81} = 9
+$ \\[5pt]
+
+Problem 6 - Find k so that $\mathbf{u}$ and $\mathbf{v}$ are orthogonal \\[5pt]
+
+a. $u=(3,k,-2),v=(6,-4,-3)$ \\[5pt]
+
+$
+3(6)+k(-4)+(-2)(-3) = 0 \\
+18-4k+6 = 0 \\
+-4k+24 = 0 \\
+-4k = -24 \\
+\frac{-4k}{-4} = \frac{-24}{-4} \\
+k = 6 
+$ \\[5pt]
+
+b. $u=(5,k,-4,2),v=(1,-3,2,2k)$ \\[5pt]
+
+$
+5(1)+k(-3)+(-4)(2)+2(2k) = 0 \\
+5-3k-8+4k = 0 \\
+k-3 = 0 \\
+k = 3 \\
+$ \\[5pt]
+
+c. $u=(1,7,k+2,-2),v=(3,k,-3,k)$ \\[5pt]
+
+$
+1(3)+7(k)+(k+2)(-3)+(-2)(k) = 0 \\
+3+7k+(-3k-6)-2k = 0 \\
+3+5k-3k-6 = 0 \\
+-3+2k = 0 \\
+2k = 3 \\
+\frac{2k}{2} = \frac{3}{2} \\
+k = \frac{3}{2}
+$ \\[5pt]
+
+
+
+
+
+\end{document}
